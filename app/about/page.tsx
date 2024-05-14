@@ -10,7 +10,7 @@ const About = (props: Props) => {
         guardians face everyday, which is traffic and time consuming when trying
         to pick up their kids from school. This project will make it easier for
         guardians to pick up their kids from school by applying a way of
-        communication between the students' school and their guardians
+        communication between the students school and their guardians
         through this website called WESELT. Guardians can send a notification to
         the school that is being heading to. The notification will have all the
         details that concern the students that are to be picked up and also a
