@@ -13,10 +13,10 @@ export default function Home() {
         <h1 className="md:text-7xl text-3xl text-center mb-8 font-bold">
           مرحبا بك في وصلت
         </h1>
-        <h3 className="md:w-1/2 w-full text-center text-sm md:text-base">
+        <h1 className="md:w-1/2 w-full text-center text-sm md:text-base">
           with WESELT we made it easier for you to pick up your kids from
           school. no more traffic, no more waiting.
-        </h3>
+        </h1>
         <h3 className="md:w-1/4 w-full text-center mt-2 text-sm md:text-base">
           مع وصلت خليناها اسهل عليك تاخذ اطفالك من المدرسة انتظار اقل زحمة اقل
         </h3>
