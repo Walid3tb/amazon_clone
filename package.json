@@ -4,11 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "deploy": "gh -pages -d build",
+    "predeploy":"npm run build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "homepage" : "http://Walid3tb.github.io/amazon_clone",
+    "gh": "^2.8.9",
+    "github": "^14.0.0",
     "js-cookie": "^3.0.5",
     "next": "14.1.4",
     "react": "^18",

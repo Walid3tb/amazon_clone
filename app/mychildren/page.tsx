@@ -40,7 +40,7 @@ const MyChildrenPage = () => {
       setDataLoading(false);
     };
     fetchChildren();
-  }, [fetchChildIndicate]);
+  },[fetchChildIndicate]);
 
   useEffect(() => {
     if (cityId) {

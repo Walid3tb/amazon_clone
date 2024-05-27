@@ -17,7 +17,7 @@ const MyAccountPage = () => {
       setDataLoading(false);
     };
     fetchUserData();
-  }, []);
+  },[]);
 
   return (
     <div className="max-w-6xl mx-auto w-full pt-5">

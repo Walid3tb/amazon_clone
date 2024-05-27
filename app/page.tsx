@@ -10,16 +10,16 @@ export default function Home() {
         <h1 className="md:text-7xl text-3xl text-center mt-24 mb-4 font-bold">
           WELCOME TO WESELT
         </h1>
-        <h1 className="md:text-7xl text-3xl text-center mb-8 font-bold">
+        <h4 className="md:text-7xl text-3xl text-center mb-8 font-bold">
           مرحبا بك في وصلت
-        </h1>
-        <p className="md:w-1/2 w-full text-center text-sm md:text-base">
+        </h4>
+        <h4 className="md:w-1/2 w-full text-center text-sm md:text-base">
           with WESELT we made it easier for you to pick up your kids from
           school. no more traffic, no more waiting.
-        </p>
-        <p className="md:w-1/4 w-full text-center mt-2 text-sm md:text-base">
+        </h4>
+        <h4 className="md:w-1/4 w-full text-center mt-2 text-sm md:text-base">
           مع وصلت خليناها اسهل عليك تاخذ اطفالك من المدرسة انتظار اقل زحمة اقل
-        </p>
+        </h4>
         {authUser?.role?.name === "user" && (
           <Link
             href="/students"
